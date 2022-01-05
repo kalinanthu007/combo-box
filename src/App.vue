@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <single-select></single-select>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import ComboBox from './components/ComboBox.vue'
+// import ComboBox1 from './components/ComboBox1.vue'
+import SingleSelect from './components/SingleSelect.vue'
+// import styleCB from './components/styleCB.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // ComboBox,
+    // ComboBox1,
+    SingleSelect
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
